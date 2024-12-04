@@ -15,6 +15,8 @@ window.addEventListener("keydown", (evt) => {
   if (evt.key == "h") gui.show(gui._hidden);
 });
 
+gui.hide();
+
 // Canvas
 const canvas = document.querySelector("canvas.webgl");
 
